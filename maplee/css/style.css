@@ -1,0 +1,109 @@
+#menu {
+  color: white;
+  font-size: 15px;
+}
+
+.daeMoon {
+  font-size: 60px;
+  text-align: left;
+  display: block;
+  padding: 20px;
+  width: 40%;
+  color: white;
+  font-weight: 20;
+  padding-left: 200px;
+}
+
+.boardName a {
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+#last {
+  border: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.boardName {
+  display: flex;
+  width: calc(1280px - 300px);
+}
+
+.world a {
+  border: 2px solid gray;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.world {
+  font-size: 22px;
+}
+@media (max-width: 750px) {
+  .boardName {
+    display: block;
+  }
+}
+
+.text_box {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -300px;
+  margin-right: -200px;
+}
+
+.mapleStory {
+  background: url("../img/banner.png") no-repeat;
+  width: 1920px;
+  height: 310px;
+}
+
+.freedom {
+  margin: 30px;
+  display: inline;
+  margin-right: 300px;
+  margin-left: 200px;
+}
+
+.Lg {
+  padding-left: 200px;
+  display: inline-block;
+}
+
+.support {
+  display: flex;
+}
+
+.support a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 50px;
+  font-weight: 300;
+}
+
+.tracking {
+  width: 160px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.how {
+  width: 160px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.comm {
+  font-size: 10px;
+}
+
+#first {
+  padding-left: 150px;
+}
