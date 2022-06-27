@@ -10,13 +10,14 @@
   text-decoration: none;
   font-size: 25px;
   font-weight: 900;
-  margin-right: 680px;
+  margin-right: 660px;
 }
 
 #member {
   text-decoration: none;
   font-weight: bold;
   margin-right: 20px;
+  color: black;
 }
 
 #login {
@@ -25,10 +26,12 @@
   border: 2.3px solid black;
   border-radius: 40%;
   padding: 5px;
+  color: black;
 }
 
 .top {
   margin-bottom: 15px;
+  display: block;
 }
 
 .daeMoon {
@@ -100,8 +103,10 @@
 }
 
 .Lg {
-  padding-left: 200px;
-  display: block;
+  padding-left: 340px;
+  display: inline-flex;
+  margin-top: 15px;
+  padding-top: 12px;
 }
 
 .support {
@@ -134,4 +139,9 @@
 
 #first {
   padding-left: 150px;
+}
+
+@media (max-width: 1800px) {
+  .top {
+  }
 }
