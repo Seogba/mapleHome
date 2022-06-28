@@ -31,18 +31,18 @@
 
 .top {
   margin-bottom: 15px;
-  display: block;
 }
 
 .daeMoon {
   font-size: 60px;
   text-align: left;
-  display: block;
+  display: inline;
   padding: 20px;
   width: 40%;
   color: white;
   font-weight: 20;
   padding-left: 200px;
+  margin-left: 135px;
 }
 
 .boardName a {
@@ -64,6 +64,10 @@
 .boardName {
   display: flex;
   width: calc(1280px - 300px);
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(207, 195, 195);
+  border-bottom-width: 8px;
+  margin-left: 128px;
 }
 
 .world a {
@@ -74,6 +78,10 @@
 
 .world {
   font-size: 22px;
+  display: inline;
+  border: 1px solid rgb(184, 184, 231);
+  padding: 18px;
+  margin-bottom: 15px;
 }
 @media (max-width: 750px) {
   .boardName {
@@ -107,10 +115,12 @@
   display: inline-flex;
   margin-top: 15px;
   padding-top: 12px;
+  white-space: nowrap;
 }
 
 .support {
-  display: flex;
+  display: inline-flex;
+  margin-bottom: 40px;
 }
 
 .support a {
@@ -118,7 +128,7 @@
   text-decoration: none;
   font-size: 20px;
   margin: 50px;
-  font-weight: 300;
+  font-weight: bolder;
 }
 
 .tracking {
@@ -133,6 +143,13 @@
   margin-bottom: 20px;
 }
 
+.blank {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
 .comm {
   font-size: 10px;
 }
@@ -141,7 +158,6 @@
   padding-left: 150px;
 }
 
-@media (max-width: 1800px) {
-  .top {
-  }
+#reboott {
+  margin-left: 340px;
 }
