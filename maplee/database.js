@@ -1,3 +1,7 @@
 const writingList = [];
 
-const addWriting = () => {};
+const addWriting = (writing) => {
+    writingList.push(writing)
+};
+
+export default writingList
